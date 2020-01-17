@@ -1,9 +1,15 @@
-header {
-    background: pink;
-}
-
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
 
 /* Selector de etiqueta header - section */
+header {
+    background: pink;
+    color: red;
+}
+
 /* Selector descendente */
 /* body header div nav ol li a */
 /* selector de clase . */
