@@ -5,11 +5,11 @@ propiedades
 valores */
 
 /* Selector de etiqueta header - section */
-header {
+/* header {
     background: pink;
     color: red;
 }
-
+ */
 /* Selector descendente */
 /* body header div nav ol li a */
 /* selector de clase . */
@@ -17,3 +17,20 @@ header {
 
 /* selector de id # */
 /* #portafolio */
+
+
+
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+} 
