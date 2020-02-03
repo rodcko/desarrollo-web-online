@@ -42,7 +42,7 @@ h1 {
     line-height: 1.5;
     letter-spacing: -.2px;
     color: white;
-    margin: 100px 150px 70px 30px;
+    margin: 0;
 /*     text-transform: uppercase;
     text-decoration: dashed; */
 
@@ -59,6 +59,8 @@ h1 strong {
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio {
@@ -98,8 +100,9 @@ h1 strong {
     background-color: #1b2127;
     color: white;
     display: flex;
-    height: 90px;
+    height: 70px;
     justify-content: space-between;
+    align-items: center;
 }
 
 ol,
@@ -151,4 +154,20 @@ figure {
     margin: 5px;
     border: 1px solid red;
     flex-shrink: 0;
+}
+
+.footer {
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
 }
