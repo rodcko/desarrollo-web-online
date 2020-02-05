@@ -9,6 +9,7 @@
     </head>
     <body>
         <header class="header">
+            <div class="container">
                 <figure class="logo">
                     <img src="images/logo.png" height="50" alt="Logo de http://leonidasesteban.com" />
                 </figure>
@@ -25,14 +26,18 @@
                     </li>
                 </ol>
             </nav>
+        </div>
         </header>
         <section class="hero">
-            <h1>
-                Hola! Soy <strong>Rodrigo Hernández</strong><br/> Desarrollador <strong>Javascript</strong> con <br> pasión por la <strong>enseñanza</strong>
-            </h1>
-            <!--<img src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio"> -->        
+            <div class="container">
+                    <h1>
+                        Hola! Soy <strong>Rodrigo Hernández</strong><br/> Desarrollador <strong>Javascript</strong> con <br> pasión por la <strong>enseñanza</strong>
+                    </h1>
+                <img class="hero-image" src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio">       
+            </div>
         </section>
         <section id="portafolio" class="portfolio">
+        <div class="container">
             <h2>Portafolio (Proyectos destacados)</h2>
             <article class="project">
                 <div lass ="project-details">
@@ -58,9 +63,14 @@
                     <img class="project-image" width="500" src="images/platzi-video-react-native.png" alt="proyecto del" />
                 </figure>
             </article>
+        </div>
         </section>
+        <div class="container">
         <h2 class="event-list-title">Más sobre mi experiencia</h2>
+        </div>
+
         <section id="eventos" class="event-list">
+        <div class="container">
             <article class="event">
                 <figure class="event-imageContainer">
                     <img class="event-image" src="images/platzi-conf.jpg" width="500"  />
@@ -101,8 +111,10 @@
                     <a class="event-url" href="https://www.youtube.com/watch?v=hcv06If8jXE" target="_blank">Ver Plática</a>
                 </div>
             </article>
+        </div>
         </section>
         <section id="contacto" class="contact">
+        <div class="container">
             <form action="/suscripcion/" class="form-email">
                 <h3>¿Creamos algo juntos?</h3>
                 <input type="text" placeholder="Déjame tu email" id="email">
@@ -114,13 +126,16 @@
                 <a href="https://github.com/rodcko2417" class="social-link github"></a>
                 <a href="https://instagram.com/rodcko" class="social-link instagram"></a>
             </div>
+        </div>
         </section>
-        <footer class="footer">footer
-            <div>
-                <p>Curso de Desarrollo web online 2018 <img src="images/platzi.png" width="80" alt="platzi"></p>
-            </div>
-            <div>
-                <p>Designed with <\3 by <a href="https://twitter.com/thespianartist">@thespianartist</a></p>
+        <footer class="footer">
+            <div class="container">
+                <div>
+                    <p>Curso de Desarrollo web online 2018 <img src="images/platzi.png" width="80" alt="platzi"></p>
+                </div>
+                <div>
+                    <p>Designed with <\3 by <a href="https://twitter.com/thespianartist">@thespianartist</a></p>
+                </div>
             </div>
         </footer>
     </body>
